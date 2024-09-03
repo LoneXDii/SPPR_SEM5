@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
 </head>
 <body>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+
+    <!--Page header-->
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -65,13 +65,33 @@
             </nav> 
         </div>
     </header>
+
+    <!--Page content-->
     <main class="container">
         Содержимое страницы
     </main>
+
+    <!--Page footer-->
     <footer>
         <div class="container">
-            <span class="nav-color">Подвал страницы</span>
+            <div class="navbar navbar-dark navbar-expand-md bg-dark">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link" href="http://www.facebook.com">
+                        <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="http://www.vk.com">
+                        <i class="fa-brands fa-vk fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="http://www.twitter.com">
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </body>
 </html>
