@@ -1,6 +1,6 @@
 ﻿namespace WEB_253505_PAVLOVICH.Domain.Entities;
 
-internal class Car
+public class Car
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
