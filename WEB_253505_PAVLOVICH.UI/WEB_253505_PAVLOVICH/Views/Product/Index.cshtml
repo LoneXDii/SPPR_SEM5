@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Index";
+}
+@model ProductListModel<Device>
+
+<main>
+    <ul class="list-group">
+        @foreach(var item in Model.Items)
+        {
+            <li class="list-group-item">
+                <label class="col-1">@item.Id</label>
+                <label class="col-2">@item.Name</label>
+                <label class="col-3">@item.Description</label>
+                <label class="col-2">@item.Price</label>
+                <img class="col-3" src="@item.Image"/>
+                <label class="col-1">@item.Category.Id</label>
+            </li>
+        }
+    </ul>
+</main>
