@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\models\\productlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\models\\productlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\models\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\models\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,16 +38,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Program.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Program.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Program.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T15:09:00.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HostingExtensions.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs*",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T15:08:21.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductListModel.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T15:04:26.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ResponseData.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs*",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs*",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T15:01:11.007Z",
@@ -43,12 +94,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Car.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Car.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Entities\\Car.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Car.cs*",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Car.cs*",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Car.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Car.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T14:51:48.47Z",
@@ -56,12 +107,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs*",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs*",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T14:51:32.696Z",
@@ -69,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Views\\_ViewImports.cshtml",
