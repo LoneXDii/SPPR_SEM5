@@ -1,6 +1,6 @@
 ﻿namespace WEB_253505_PAVLOVICH.Domain.Models;
 
-public class ListModel<T>
+public class ProductListModel<T>
 {
     public List<T> Items { get; set; } = new();
     public int CurrentPage { get; set; } = 1;

@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\categoryservice\\memorycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\categoryservice\\memorycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\models\\productlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\models\\productlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\models\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\models\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\deviceservice\\memorydeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\deviceservice\\memorydeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\deviceservice\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\deviceservice\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +47,8 @@
       "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\categoryservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\deviceservice\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\deviceservice\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +62,137 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T21:08:12.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:05:27.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_MenuPartial.cshtml",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Views\\Shared\\_MenuPartial.cshtml",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\Shared\\_MenuPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T21:04:24.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResponseData.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Models\\ResponseData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:56:46.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductListModel.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Models\\ProductListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:56:37.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HostingExtensions.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Extensions\\HostingExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:42:36.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T15:20:52.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemoryDeviceService.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwFUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:23:46.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemoryCategoryService.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\CategoryService\\MemoryCategoryService.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\CategoryService\\MemoryCategoryService.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\CategoryService\\MemoryCategoryService.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\CategoryService\\MemoryCategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:17:31.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:17:21.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\CategoryService\\ICategoryService.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\CategoryService\\ICategoryService.cs",
@@ -43,41 +205,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MemoryDeviceService.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\MemoryDeviceService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T16:23:46.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IDeviceService.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\IDeviceService.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\IDeviceService.cs",
               "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\IDeviceService.cs",
               "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\IDeviceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T15:31:13.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Device.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T15:20:52.779Z",
               "EditorCaption": ""
             }
           ]

@@ -6,7 +6,7 @@ using WEB_253505_PAVLOVICH.Models;
 
 namespace WEB_253505_PAVLOVICH.Controllers
 {
-    public class Home : Controller
+    public class HomeController : Controller
     {
         // GET: Home
         public ActionResult Index()

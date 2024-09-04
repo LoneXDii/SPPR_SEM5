@@ -6,7 +6,7 @@ namespace WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
 public class MemoryDeviceService : IDeviceService
 {
-    List<Device> _devices;
+    List<Device> _devices = new();
     List<Category> _categories;
 
     public MemoryDeviceService(ICategoryService categoryService)
@@ -68,9 +68,22 @@ public class MemoryDeviceService : IDeviceService
         throw new NotImplementedException();
     }
 
-    public Task<ResponseData<ListModel<Device>>> GetDeviceListAsync(string? categoryNormalizedName, int pageNo = 1)
+    public Task<ResponseData<ProductListModel<Device>>> GetDeviceListAsync(string? categoryNormalizedName, int pageNo = 1)
     {
-        throw new NotImplementedException();
+        var items = _devices
+                        .Where(p => categoryNormalizedName is null || p.Category.NormalizedName.Equals(categoryNormalizedName))
+                        .ToList();
+        //total pages and current page logick
+
+        var pagedItems = new ProductListModel<Device> 
+        { 
+            Items = items,
+            CurrentPage = pageNo,
+            TotalPages = pageNo //temp
+        };
+
+        var result = ResponseData<ProductListModel<Device>>.Success(pagedItems);
+        return Task.FromResult(result);
     }
 
     public Task UpdateDeviceAsync(int id, Device device, IFormFile? formFile)
