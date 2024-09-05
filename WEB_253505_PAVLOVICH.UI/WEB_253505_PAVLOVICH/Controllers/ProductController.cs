@@ -16,11 +16,21 @@ public class ProductController : Controller
         _deviceService = deviceService;
     }
 
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index(string? category)
     {
-        var deviceResponce = await _deviceService.GetDeviceListAsync(null);
+        var deviceResponce = await _deviceService.GetDeviceListAsync(category);
         if (!deviceResponce.Successfull)
             return NotFound(deviceResponce.ErrorMessage);
+
+        var categoriesList = await _categoryService.GetCategoryListAsync();
+        if (!categoriesList.Successfull)
+            return NotFound(categoriesList.ErrorMessage);
+
+        var categoryName = category is null ? "Все" : categoriesList.Data?.FirstOrDefault(c => c.NormalizedName.Equals(category))?.Name;
+
+        ViewData["CurrentCategory"] = categoryName;
+        ViewData["Categories"] = categoriesList.Data;
+
         return View(deviceResponce.Data);
     }
 }
