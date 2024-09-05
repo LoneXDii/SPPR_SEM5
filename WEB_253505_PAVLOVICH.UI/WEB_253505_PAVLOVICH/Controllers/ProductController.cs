@@ -16,9 +16,9 @@ public class ProductController : Controller
         _deviceService = deviceService;
     }
 
-    public async Task<IActionResult> Index(string? category)
+    public async Task<IActionResult> Index(string? category, int PageNo = 1)
     {
-        var deviceResponce = await _deviceService.GetDeviceListAsync(category);
+        var deviceResponce = await _deviceService.GetDeviceListAsync(category, PageNo);
         if (!deviceResponce.Successfull)
             return NotFound(deviceResponce.ErrorMessage);
 

@@ -1,4 +1,5 @@
-﻿using WEB_253505_PAVLOVICH.Domain.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
+using WEB_253505_PAVLOVICH.Domain.Entities;
 using WEB_253505_PAVLOVICH.Domain.Models;
 using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 
@@ -6,12 +7,17 @@ namespace WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
 public class MemoryDeviceService : IDeviceService
 {
+    private readonly ICategoryService _categoryService;
+    private readonly IConfiguration _configuration;
+
     List<Device> _devices = new();
     List<Category> _categories;
 
-    public MemoryDeviceService(ICategoryService categoryService)
+    public MemoryDeviceService([FromServices] IConfiguration config, ICategoryService categoryService)
     {
-        _categories = categoryService.GetCategoryListAsync().Result.Data!;
+        _categoryService = categoryService;
+        _configuration = config;
+        _categories = _categoryService.GetCategoryListAsync().Result.Data!;
         SetupData();
     }
 
@@ -71,15 +77,17 @@ public class MemoryDeviceService : IDeviceService
     public Task<ResponseData<ProductListModel<Device>>> GetDeviceListAsync(string? categoryNormalizedName, int pageNo = 1)
     {
         var items = _devices
-                        .Where(p => categoryNormalizedName is null || p.Category.NormalizedName.Equals(categoryNormalizedName))
+                        .Where(p => categoryNormalizedName is null || p.Category!.NormalizedName.Equals(categoryNormalizedName))
                         .ToList();
-        //total pages and current page logick
+
+        var itemsPerPage = _configuration.GetValue<int>("ItemsPerPage");
+        int totalPages = (int)Math.Ceiling((double)items.Count() / itemsPerPage);
 
         var pagedItems = new ProductListModel<Device> 
-        { 
-            Items = items,
+        {
+            Items = items.Skip((pageNo - 1) * itemsPerPage).Take(itemsPerPage).ToList(),
             CurrentPage = pageNo,
-            TotalPages = pageNo //temp
+            TotalPages = totalPages
         };
 
         var result = ResponseData<ProductListModel<Device>>.Success(pagedItems);
