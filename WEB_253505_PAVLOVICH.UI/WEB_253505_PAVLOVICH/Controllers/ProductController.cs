@@ -26,7 +26,9 @@ public class ProductController : Controller
         if (!categoriesList.Successfull)
             return NotFound(categoriesList.ErrorMessage);
 
-        var categoryName = category is null ? "Все" : categoriesList.Data?.FirstOrDefault(c => c.NormalizedName.Equals(category))?.Name;
+        var categoryName = category is null 
+            ? "Все" 
+            : categoriesList.Data?.FirstOrDefault(c => c.NormalizedName.Equals(category))?.Name;
 
         ViewData["CurrentCategory"] = categoryName;
         ViewData["Categories"] = categoriesList.Data;

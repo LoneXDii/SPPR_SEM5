@@ -5,6 +5,14 @@
     var returnUrl = request.Path + request.QueryString.ToUriComponent();
 
     var categories = ViewData["Categories"] as List<Category> ?? new List<Category>();
+
+    string? category = request.Query["category"].ToString();
+    int prev = Model.CurrentPage == 1
+        ? 1
+        : Model.CurrentPage - 1;
+    int next = Model.CurrentPage == Model.TotalPages
+        ? Model.TotalPages
+        : Model.CurrentPage + 1;
 }
 @model ProductListModel<Device>
 
@@ -72,4 +80,40 @@
             </div>
         </div>
     </div>
+
+    <!--Navigation-->
+    <nav aria-label="Navigation">
+        <ul class="pagination offset-sm-2 justify-content-center">
+            <li class="page-item">
+                <a class="page-link"
+                   asp-controller="Product"
+                   asp-action="Index"
+                   asp-route-category="@category"
+                   asp-route-PageNo="@prev">
+                    Previous
+                </a>
+            </li>
+            @for(int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link"
+                       asp-controller="Product"
+                       asp-action="Index"
+                       asp-route-category="@category"
+                       asp-route-PageNo="@i">
+                        @i
+                    </a>
+                </li>
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   asp-controller="Product"
+                   asp-action="Index"
+                   asp-route-category="@category"
+                   asp-route-PageNo="@next">
+                    Next
+                </a>
+            </li>
+        </ul>
+    </nav>
 </main>
