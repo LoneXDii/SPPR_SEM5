@@ -46,7 +46,7 @@ public class MemoryDeviceService : IDeviceService
                        Image = "Images/huawei-watch-gt4.jpg", Price = 499,
                        Category = _categories.Find(c=>c.NormalizedName.Equals("smart-clocks"))},
 
-            new Device{Id = 8, Name = "Sony WH-1000XM4 ", Description = "Черные беспроводные наушники с микрофоном",
+            new Device{Id = 8, Name = "Sony WH-1000XM4 ", Description = "Беспроводные наушники с микрофоном",
                        Image = "Images/sony-wh1000.jpg", Price = 999,
                        Category = _categories.Find(c=>c.NormalizedName.Equals("headphones"))},
         };

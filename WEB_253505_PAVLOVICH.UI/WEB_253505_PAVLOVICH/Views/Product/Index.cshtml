@@ -1,23 +1,32 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
     ViewBag.Title = "Index";
+
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
 }
 @model ProductListModel<Device>
 
 <main>
-    <ul class="list-group">
-        @foreach(var item in Model.Items)
+    <div class="row row-cols-md-3 g-3">
+        @foreach (var item in Model.Items)
         {
-            <li class="list-group-item">
-                <label class="col-1">@item.Id</label>
-                <label class="col-2">@item.Name</label>
-                <label class="col-3">@item.Description</label>
-                <label class="col-2">@item.Price</label>
-                <img class="col-3" src="@item.Image"/>
-                <label class="col-1">@item.Category.Id</label>
-            </li>
+            <div class="col p-4">
+                <div class="card">
+                    <img src="@item.Image" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text mb2">@item.Description</p>
+                        <h4 class="card-text ">@item.Price BYN</h4>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a class="btn btn-outline-primary"
+                           asp-controller="Cart" asp-action="Add"
+                           asp-route-id="@item.Id" asp-route-returnurl="@returnUrl">
+                            Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         }
-    </ul>
+    </div>
 </main>

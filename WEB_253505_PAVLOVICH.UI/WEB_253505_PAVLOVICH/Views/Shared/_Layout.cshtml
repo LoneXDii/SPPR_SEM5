@@ -21,7 +21,7 @@
     </header>
 
     <!--Page content-->
-    <main>
+    <main class="container">
         @RenderBody()
     </main>
 
@@ -47,6 +47,6 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+    @RenderSection("Scripts", false)
 </body>
 </html>
