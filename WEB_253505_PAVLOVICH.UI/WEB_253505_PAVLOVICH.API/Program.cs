@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WEB_253505_PAVLOVICH.API.Data;
+using WEB_253505_PAVLOVICH.API.Services.CategoryService;
+using WEB_253505_PAVLOVICH.API.Services.DeviceService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,10 @@ ServerVersion vesrion = ServerVersion.AutoDetect(connStr);
 builder.Services.AddDbContext<AppDbContext>(opt =>
                     opt.UseMySql(connStr, new MySqlServerVersion(new Version(8, 0, 36))),
                     ServiceLifetime.Scoped);
+
+// DI
+builder.Services.AddScoped<ICategoryService, CategoryService>()
+                .AddScoped<IDeviceService, DeviceService>();
 
 var app = builder.Build();
 
