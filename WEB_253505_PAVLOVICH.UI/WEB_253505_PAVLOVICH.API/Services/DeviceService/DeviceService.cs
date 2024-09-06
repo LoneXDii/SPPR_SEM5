@@ -50,27 +50,60 @@ public class DeviceService : IDeviceService
         return ResponseData<ProductListModel<Device>>.Success(dataList);
     }
 
-    public Task<ResponseData<Device>> CreateDeviceAsync(Device device)
+    public async Task<ResponseData<Device>> GetDeviceByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        var device = await _dbContext.Devices.FirstOrDefaultAsync(d => d.Id == id);
+
+        if (device is null)
+        {
+            return ResponseData<Device>.Error($"No device with id={id}");
+        }
+
+        return ResponseData<Device>.Success(device);
     }
 
-    public Task DeleteDeviceAsync(int id)
+    public async Task<ResponseData<Device>> CreateDeviceAsync(Device device)
     {
-        throw new NotImplementedException();
+        var newDevice = await _dbContext.Devices.AddAsync(device);
+        await _dbContext.SaveChangesAsync();
+
+        return ResponseData<Device>.Success(newDevice.Entity);
     }
 
-    public Task<ResponseData<Device>> GetDeviceByIdAsync(int id)
+    public async Task DeleteDeviceAsync(int id)
     {
-        throw new NotImplementedException();
+        var device = await _dbContext.Devices.FirstOrDefaultAsync(d => d.Id == id);
+
+        if(device is null)
+        {
+            return;
+        }
+
+        _dbContext.Remove(device);
+        await _dbContext.SaveChangesAsync();
+    }
+
+    public async Task UpdateDeviceAsync(int id, Device device)
+    {
+        var dbDevice = await _dbContext.Devices.FirstOrDefaultAsync(d => d.Id == id);
+
+        if (dbDevice is null)
+        {
+            return;
+        }
+
+        dbDevice.Price = device.Price;
+        dbDevice.Description = device.Description;
+        dbDevice.Category = device.Category;
+        dbDevice.Name = device.Name;
+        dbDevice.CategoryId = device.CategoryId;
+        dbDevice.Image = device.Image;
+
+        _dbContext.Entry(dbDevice).State = EntityState.Modified;
+        await _dbContext.SaveChangesAsync();
     }
 
     public Task<ResponseData<string>> SaveImageAsync(int id, IFormFile formFile)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task UpdateDeviceAsync(int id, Device device)
     {
         throw new NotImplementedException();
     }
