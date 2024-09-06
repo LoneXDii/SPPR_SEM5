@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WEB_253505_PAVLOVICH.API.Data;
+using WEB_253505_PAVLOVICH.API.Services.DeviceService;
 using WEB_253505_PAVLOVICH.Domain.Entities;
 
 namespace WEB_253505_PAVLOVICH.API.Controllers
@@ -9,95 +10,48 @@ namespace WEB_253505_PAVLOVICH.API.Controllers
     [ApiController]
     public class DevicesController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IDeviceService _deviceServcie;
 
-        public DevicesController(AppDbContext context)
+        public DevicesController(IDeviceService deviceServcie)
         {
-            _context = context;
+            _deviceServcie = deviceServcie;
         }
 
-        // GET: api/Devices
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Device>>> GetDevices()
+        [Route("{category?}")]
+        public async Task<ActionResult<IEnumerable<Device>>> GetDevices(string? category, int pageNo = 1, 
+                                                                        int pageSize = 3)
         {
-            return await _context.Devices.ToListAsync();
+            return Ok(await _deviceServcie.GetDeviceListAsync(category, pageNo, pageSize));
         }
 
-        // GET: api/Devices/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Device>> GetDevice(int id)
+        [HttpGet("{id:int}")]
+        public Task<ActionResult<Device>> GetDevice(int id)
         {
-            var device = await _context.Devices.FindAsync(id);
-
-            if (device == null)
-            {
-                return NotFound();
-            }
-
-            return device;
+            throw new NotImplementedException();
         }
 
-        // PUT: api/Devices/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutDevice(int id, Device device)
+        public Task<IActionResult> PutDevice(int id, Device device)
         {
-            if (id != device.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(device).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!DeviceExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            throw new NotImplementedException();
         }
 
-        // POST: api/Devices
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Device>> PostDevice(Device device)
+        public Task<ActionResult<Device>> PostDevice(Device device)
         {
-            _context.Devices.Add(device);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetDevice", new { id = device.Id }, device);
+            throw new NotImplementedException();
         }
 
-        // DELETE: api/Devices/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteDevice(int id)
+        public Task<IActionResult> DeleteDevice(int id)
         {
-            var device = await _context.Devices.FindAsync(id);
-            if (device == null)
-            {
-                return NotFound();
-            }
-
-            _context.Devices.Remove(device);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            throw new NotImplementedException();
         }
 
         private bool DeviceExists(int id)
         {
-            return _context.Devices.Any(e => e.Id == id);
+            throw new NotImplementedException();
         }
     }
 }
