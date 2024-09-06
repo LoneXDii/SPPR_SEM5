@@ -7,7 +7,7 @@ public static class HostingExtensions
 {
     public static void RegisterCustomServices(this WebApplicationBuilder builder)
     {
-        builder.Services.AddScoped<ICategoryService, MemoryCategoryService>()
-                        .AddScoped<IDeviceService, MemoryDeviceService>();
+        builder.Services.AddScoped<ICategoryService, ApiCategoryService>()
+                        .AddScoped<IDeviceService, ApiDeviceService>();
     }
 }
