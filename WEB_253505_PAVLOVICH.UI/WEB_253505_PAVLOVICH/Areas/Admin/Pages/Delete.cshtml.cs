@@ -38,7 +38,7 @@ public class DeleteModel : PageModel
         {
             Device = device.Data!;
             var categories = await _categoryService.GetCategoryListAsync();
-            Category = categories.Data?.FirstOrDefault(c => c.Id == Device.CategoryId)!;
+            Category = categories.Data?.FirstOrDefault(c => c.Id == Device?.CategoryId)!;
         }
         return Page();
     }

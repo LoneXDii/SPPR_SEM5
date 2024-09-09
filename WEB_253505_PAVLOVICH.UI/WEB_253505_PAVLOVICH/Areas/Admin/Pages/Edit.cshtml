@@ -5,49 +5,53 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Редактировать устройство</h1>
 
-<h4>Device</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Device.Id" />
+            <input type="hidden" asp-for="Device.Image" />
             <div class="form-group">
-                <label asp-for="Device.Name" class="control-label"></label>
+                <label asp-for="Device.Name" class="control-label">Название</label>
                 <input asp-for="Device.Name" class="form-control" />
                 <span asp-validation-for="Device.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Device.Description" class="control-label"></label>
+                <label asp-for="Device.Description" class="control-label">Описание</label>
                 <input asp-for="Device.Description" class="form-control" />
                 <span asp-validation-for="Device.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Device.CategoryId" class="control-label"></label>
-                <select asp-for="Device.CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                <label asp-for="Device.CategoryId" class="control-label">Категория</label>
+                <select asp-for="Device.CategoryId" class="form-control" asp-items="@Model.Categories"></select>
                 <span asp-validation-for="Device.CategoryId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Device.Price" class="control-label"></label>
+                <label asp-for="Device.Price" class="control-label">Цена</label>
                 <input asp-for="Device.Price" class="form-control" />
                 <span asp-validation-for="Device.Price" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Device.Image" class="control-label"></label>
-                <input asp-for="Device.Image" class="form-control" />
-                <span asp-validation-for="Device.Image" class="text-danger"></span>
+            <div class="form-group mb-3">
+                <label asp-for="@Model.Image" class="control-label">Новое изображение</label>
+                <input asp-for="@Model.Image" type="file" class="form-control" />
+                <span asp-validation-for="@Model.Image" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Сохранить" class="btn btn-primary" />
             </div>
         </form>
+    </div>
+    <div class="col-md-4">
+        <h4 class="row">Текущее изображение</h4>
+        <img src="@Model.Device.Image" style="max-height:200px;" />
     </div>
 </div>
 
 <div>
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Index">Вернуться к списку устройств</a>
 </div>
 
 @section Scripts {

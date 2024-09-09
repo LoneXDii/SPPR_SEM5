@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using WEB_253505_PAVLOVICH.Domain.Entities;
+using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
 namespace WEB_253505_PAVLOVICH.UI.Areas.Admin.Pages;
@@ -8,14 +10,19 @@ namespace WEB_253505_PAVLOVICH.UI.Areas.Admin.Pages;
 public class EditModel : PageModel
 {
     private readonly IDeviceService _deviceService;
+    private readonly ICategoryService _categoryService;
 
-    public EditModel(IDeviceService deviceService)
+    public EditModel(IDeviceService deviceService, ICategoryService categoryService)
     {
         _deviceService = deviceService;
+        _categoryService = categoryService;
     }
 
     [BindProperty]
     public Device Device { get; set; } = default!;
+    [BindProperty]
+    public IFormFile? Image { get; set; }
+    public SelectList? Categories { get; set; }
 
     public async Task<IActionResult> OnGetAsync(int? id)
     {
@@ -23,13 +30,13 @@ public class EditModel : PageModel
         {
             return NotFound();
         }
-
         var device =  await _deviceService.GetDeviceByIdAsync(id.Value);
         if (device == null)
         {
             return NotFound();
         }
         Device = device.Data!;
+        Categories = new SelectList(_categoryService.GetCategoryListAsync().Result.Data, "Id", "Name", Device.CategoryId);
         return Page();
     }
 
@@ -40,16 +47,8 @@ public class EditModel : PageModel
             return Page();
         }
 
-        await _deviceService.UpdateDeviceAsync(Device.Id, Device, null);
-
+        await _deviceService.UpdateDeviceAsync(Device.Id, Device, Image);
 
         return RedirectToPage("./Index");
-    }
-
-    private bool DeviceExists(int id)
-    {
-        return _deviceService.GetDeviceByIdAsync(id).Result is null
-               ? false
-               : true;
     }
 }

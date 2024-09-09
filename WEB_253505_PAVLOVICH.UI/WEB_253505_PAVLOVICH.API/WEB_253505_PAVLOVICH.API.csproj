@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Images\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\WEB_253505_PAVLOVICH.Domain\WEB_253505_PAVLOVICH.Domain.csproj" />
   </ItemGroup>
 

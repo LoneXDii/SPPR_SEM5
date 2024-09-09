@@ -120,8 +120,22 @@ public class ApiDeviceService : IDeviceService
         return ResponseData<Device>.Error($"Can't get device with id={id}. Error:{response.StatusCode.ToString()}");
     }
 
-    public Task UpdateDeviceAsync(int id, Device device, IFormFile? formFile)
+    public async Task UpdateDeviceAsync(int id, Device device, IFormFile? formFile)
     {
-        throw new NotImplementedException();
+        if (formFile != null)
+        {
+            var imageUrl = await _fileService.SaveFileAsync(formFile);
+            if (!string.IsNullOrEmpty(imageUrl))
+            {
+                await _fileService.DeleteFileAsync(device.Image!);
+                device.Image = imageUrl;
+            }
+        }
+        var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"Devices/{id}");
+        var response = await _httpClient.PutAsJsonAsync(uri, device);
+        if (!response.IsSuccessStatusCode)
+        {
+            _logger.LogError($"-----> Object not updated. Error:{response.StatusCode.ToString()}");
+        }
     }
 }
