@@ -5,47 +5,46 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Device</h4>
+<h1>Добавить устройство</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Device.Name" class="control-label"></label>
+                <label asp-for="Device.Name" class="control-label">Название</label>
                 <input asp-for="Device.Name" class="form-control" />
                 <span asp-validation-for="Device.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Device.Description" class="control-label"></label>
+                <label asp-for="Device.Description" class="control-label">Описание</label>
                 <input asp-for="Device.Description" class="form-control" />
                 <span asp-validation-for="Device.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Device.CategoryId" class="control-label"></label>
-                <select asp-for="Device.CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+                <label asp-for="Device.CategoryId" class="control-label">Категория</label>
+                <select asp-for="Device.CategoryId" class ="form-control" asp-items="@Model.Categories"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Device.Price" class="control-label"></label>
+                <label asp-for="Device.Price" class="control-label">Цена</label>
                 <input asp-for="Device.Price" class="form-control" />
                 <span asp-validation-for="Device.Price" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Device.Image" class="control-label"></label>
-                <input asp-for="Device.Image" type="file" class="form-control-file" />
-                <span asp-validation-for="Device.Image" class="text-danger"></span>
+            <div class="form-group mb-3">
+                <label asp-for="@Model.Image" class="control-label">Изображение</label>
+                <input asp-for="@Model.Image" type="file" class="form-control" />
+                <span asp-validation-for="@Model.Image" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <button type="submit" class="btn btn-primary col-4 mb-3">
+                    <i class="fa-solid fa-plus"></i> Добавить
+                </button>
+                <a asp-page="Index" class="btn btn-danger col-4 mb-3">
+                    <i class="fa-solid fa-xmark"></i> Отмена
+                </a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-page="Index">Back to List</a>
 </div>
 
 @section Scripts {
