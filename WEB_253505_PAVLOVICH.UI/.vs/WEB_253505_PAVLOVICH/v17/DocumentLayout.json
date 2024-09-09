@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\deviceservice\\apideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\deviceservice\\apideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\areas\\admin\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\areas\\admin\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml",
               "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml",
               "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAIAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T20:31:55.313Z",
+              "WhenOpened": "2024-09-09T21:04:26.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Index.cshtml*",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Index.cshtml*",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T20:24:09.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiDeviceService.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAkwEMAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Delete.cshtml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T19:55:07.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T19:52:44.605Z",
+              "WhenOpened": "2024-09-09T21:00:30.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswC4AAAABAAAA",
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCYAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T19:52:43.734Z",
+              "WhenOpened": "2024-09-09T21:00:21.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml*",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Areas\\Admin\\Pages\\Details.cshtml*",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T21:00:20.249Z",
               "EditorCaption": ""
             }
           ]

@@ -41,7 +41,7 @@ public class ApiFileService : IFileService
 
     public async Task DeleteFileAsync(string fileName)
     {
-        var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"/{fileName}");
+        var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"/{fileName.Split('/').Last()}");
         var response = await _httpClient.DeleteAsync(uri);
         if (!response.IsSuccessStatusCode)
         {

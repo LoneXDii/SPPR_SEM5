@@ -73,7 +73,6 @@ public class DeviceService : IDeviceService
     public async Task DeleteDeviceAsync(int id)
     {
         var device = await _dbContext.Devices.FirstOrDefaultAsync(d => d.Id == id);
-
         if(device is null)
         {
             return;
