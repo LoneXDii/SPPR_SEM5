@@ -5,28 +5,28 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Админка</h1>
 
 <p>
     <a class="btn btn-primary"
        asp-page="Create">
-        <i class="fa-solid fa-plus"></i> Create New
+        <i class="fa-solid fa-plus"></i> Добавить устройство
     </a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Devices[0].Name)
+                Название
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Devices[0].Description)
+                Описание
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Devices[0].Price)
+                Цена
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Devices[0].Image)
+                Изображение
             </th>
             <th></th>
         </tr>
@@ -45,25 +45,25 @@
                 @item.Price
             </td>
             <td>
-                    <img src="@item.Image" style="max-width:150px;">
+                <img src="@item.Image" style="max-width:150px;">
             </td>
             <td>
                 <a class="btn btn-success"
                    asp-page="./Edit" 
                    asp-route-id="@item.Id">
-                    <i class="fas fa-edit"></i> Edit
+                    <i class="fas fa-edit"></i> Изменить
                 </a>
 
                 <a class="btn btn-info" 
                    asp-page="./Details" 
                    asp-route-id="@item.Id">
-                    <i class="fa-solid fa-info"></i> Details
+                    <i class="fa-solid fa-info"></i> Подробнее
                 </a>
 
                 <a class="btn btn-danger" 
                    asp-page="./Delete" 
                    asp-route-id="@item.Id">
-                    <i class="fa-regular fa-trash-can"></i> Delete
+                    <i class="fa-regular fa-trash-can"></i> Удалить
                 </a>
             </td>
         </tr>
