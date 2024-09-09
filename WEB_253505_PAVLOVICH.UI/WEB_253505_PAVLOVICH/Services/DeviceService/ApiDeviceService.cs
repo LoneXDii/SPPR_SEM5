@@ -2,6 +2,7 @@
 using System.Text.Json;
 using WEB_253505_PAVLOVICH.Domain.Entities;
 using WEB_253505_PAVLOVICH.Domain.Models;
+using WEB_253505_PAVLOVICH.UI.Services.FileService;
 
 namespace WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
@@ -11,10 +12,11 @@ public class ApiDeviceService : IDeviceService
     private readonly HttpClient _httpClient;
     private readonly ILogger<ApiDeviceService> _logger;
     private readonly JsonSerializerOptions _serializerOptions;
+    private readonly IFileService _fileService;
     private readonly string _pageSize;
 
     public ApiDeviceService(HttpClient httpClient, IConfiguration configuration,
-                            ILogger<ApiDeviceService> logger)
+                            ILogger<ApiDeviceService> logger, IFileService fileService)
     {
         _httpClient = httpClient;
         _serializerOptions = new JsonSerializerOptions()
@@ -23,6 +25,7 @@ public class ApiDeviceService : IDeviceService
         };
         _logger = logger;
         _pageSize = configuration.GetSection("ItemsPerPage").Value!;
+        _fileService = fileService;
     }
 
     public async Task<ResponseData<ProductListModel<Device>>> GetDeviceListAsync(string? categoryNormalizedName, int pageNo = 1)
@@ -62,6 +65,17 @@ public class ApiDeviceService : IDeviceService
 
     public async Task<ResponseData<Device>> CreateDeviceAsync(Device device, IFormFile? formFile)
     {
+        device.Image = "Images/noimage.jpg";
+
+        if (formFile != null)
+        {
+            var imageUrl = await _fileService.SaveFileAsync(formFile);
+            if (!string.IsNullOrEmpty(imageUrl))
+            {
+                device.Image = imageUrl;
+            }
+        }
+
         var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + "Devices");
         var response = await _httpClient.PostAsJsonAsync(uri, device, _serializerOptions);
         if (response.IsSuccessStatusCode)
