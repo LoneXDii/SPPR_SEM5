@@ -1,57 +1,61 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WEB_253505_PAVLOVICH.API.Data;
 using WEB_253505_PAVLOVICH.API.Services.DeviceService;
 using WEB_253505_PAVLOVICH.Domain.Entities;
 
-namespace WEB_253505_PAVLOVICH.API.Controllers
+namespace WEB_253505_PAVLOVICH.API.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class DevicesController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class DevicesController : ControllerBase
+    private readonly IDeviceService _deviceService;
+
+    public DevicesController(IDeviceService deviceServcie)
     {
-        private readonly IDeviceService _deviceServcie;
+        _deviceService = deviceServcie;
+    }
 
-        public DevicesController(IDeviceService deviceServcie)
-        {
-            _deviceServcie = deviceServcie;
-        }
+    [HttpGet]
+    [Route("{category?}")]
+    public async Task<ActionResult<IEnumerable<Device>>> GetDevices(string? category, int pageNo = 1, 
+                                                                    int pageSize = 3)
+    {
+        return Ok(await _deviceService.GetDeviceListAsync(category, pageNo, pageSize));
+    }
 
-        [HttpGet]
-        [Route("{category?}")]
-        public async Task<ActionResult<IEnumerable<Device>>> GetDevices(string? category, int pageNo = 1, 
-                                                                        int pageSize = 3)
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<Device>> GetDeviceAsync(int id)
+    {
+        var response = await _deviceService.GetDeviceByIdAsync(id);
+        if (!response.Successfull)
         {
-            return Ok(await _deviceServcie.GetDeviceListAsync(category, pageNo, pageSize));
+            return NotFound(response.ErrorMessage);
         }
+        return Ok(response);
+    }
 
-        [HttpGet("{id:int}")]
-        public Task<ActionResult<Device>> GetDevice(int id)
-        {
-            throw new NotImplementedException();
-        }
+    [HttpPut("{id}")]
+    public async Task<IActionResult> PutDeviceAsync(int id, Device device)
+    {
+        await _deviceService.UpdateDeviceAsync(id, device);
+        return Ok();
+    }
 
-        [HttpPut("{id}")]
-        public Task<IActionResult> PutDevice(int id, Device device)
+    [HttpPost]
+    public async Task<ActionResult<Device>> PostDeviceAsync(Device device)
+    {
+        var response = await _deviceService.CreateDeviceAsync(device);
+        if (!response.Successfull)
         {
-            throw new NotImplementedException();
+            return BadRequest(response.ErrorMessage);
         }
+        return Ok(response);
+    }
 
-        [HttpPost]
-        public Task<ActionResult<Device>> PostDevice(Device device)
-        {
-            throw new NotImplementedException();
-        }
-
-        [HttpDelete("{id}")]
-        public Task<IActionResult> DeleteDevice(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        private bool DeviceExists(int id)
-        {
-            throw new NotImplementedException();
-        }
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteDeviceAsync(int id)
+    {
+        await _deviceService.DeleteDeviceAsync(id);
+        return Ok();
     }
 }

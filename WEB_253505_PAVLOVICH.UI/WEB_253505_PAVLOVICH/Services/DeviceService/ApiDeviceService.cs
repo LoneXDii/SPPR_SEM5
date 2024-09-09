@@ -55,8 +55,8 @@ public class ApiDeviceService : IDeviceService
                 return ResponseData<ProductListModel<Device>>.Error($"Error: {ex.Message}");
             }
         }
-        _logger.LogError($"-----> Error in acessing server. Error:{response.StatusCode.ToString()}");
-        return ResponseData<ProductListModel<Device>>.Error($"Error in acessing server. Error:{response.StatusCode.ToString()}");
+        _logger.LogError($"-----> Error in acessing devices list. Error:{response.StatusCode.ToString()}");
+        return ResponseData<ProductListModel<Device>>.Error($"Error in acessing devices list. Error:{response.StatusCode.ToString()}");
     }
 
 
@@ -74,14 +74,36 @@ public class ApiDeviceService : IDeviceService
         return ResponseData<Device>.Error($"Object not created. Error:{response.StatusCode.ToString()}");
     }
 
-    public Task DeleteDeviceAsync(int id)
+    public async Task DeleteDeviceAsync(int id)
     {
-        throw new NotImplementedException();
+        var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"Devices/{id}");
+        var response = await _httpClient.DeleteAsync(uri);
+        if (!response.IsSuccessStatusCode)
+        {
+            _logger.LogError($"-----> Object not deleted. Error:{response.StatusCode.ToString()}");
+        }
     }
 
-    public Task<ResponseData<Device>> GetDeviceByIdAsync(int id)
+    public async Task<ResponseData<Device>> GetDeviceByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"Devices/{id}");
+        var response = await _httpClient.GetAsync(uri);
+        if (response.IsSuccessStatusCode)
+        {
+            try
+            {
+                return await response.Content
+                                     .ReadFromJsonAsync<ResponseData<Device>>(_serializerOptions);
+
+            }
+            catch (JsonException ex)
+            {
+                _logger.LogError($"-----> Error: {ex.Message}");
+                return ResponseData<Device>.Error($"Error: {ex.Message}");
+            }
+        }
+        _logger.LogError($"-----> Can't get device with id={id}. Error:{response.StatusCode.ToString()}");
+        return ResponseData<Device>.Error($"Can't get device with id={id}. Error:{response.StatusCode.ToString()}");
     }
 
     public Task UpdateDeviceAsync(int id, Device device, IFormFile? formFile)
