@@ -3,6 +3,7 @@ using WEB_253505_PAVLOVICH.UI.Extensions;
 using WEB_253505_PAVLOVICH.UI.HelpClasses;
 using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
+using WEB_253505_PAVLOVICH.UI.Services.FileService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,7 @@ UriData.ApiUri = builder.Configuration.GetSection("UriData").GetValue<string>("A
 
 builder.Services.AddHttpClient<ICategoryService, ApiCategoryService>(opt => opt.BaseAddress = new Uri(UriData.ApiUri));
 builder.Services.AddHttpClient<IDeviceService, ApiDeviceService>(opt =>opt.BaseAddress = new Uri(UriData.ApiUri));
+builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>opt.BaseAddress = new Uri($"{UriData.ApiUri}Files"));
 
 var app = builder.Build();
 

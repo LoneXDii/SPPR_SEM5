@@ -37,7 +37,7 @@ public class FilesController : ControllerBase
         return Ok(fileUrl);
     }
 
-    [HttpDelete]
+    [HttpDelete("{fileName}")]
     public IActionResult DeleteFile(string fileName) 
     {
         var filePath = Path.Combine(_imagePath, fileName);
