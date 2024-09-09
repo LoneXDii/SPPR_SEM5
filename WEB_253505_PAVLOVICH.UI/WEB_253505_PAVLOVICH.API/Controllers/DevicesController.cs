@@ -24,7 +24,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpGet("{id:int}")]
-    public async Task<ActionResult<Device>> GetDeviceAsync(int id)
+    public async Task<ActionResult<Device>> GetDevice(int id)
     {
         var response = await _deviceService.GetDeviceByIdAsync(id);
         if (!response.Successfull)
@@ -35,14 +35,14 @@ public class DevicesController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutDeviceAsync(int id, Device device)
+    public async Task<IActionResult> PutDevice(int id, Device device)
     {
         await _deviceService.UpdateDeviceAsync(id, device);
         return Ok();
     }
 
     [HttpPost]
-    public async Task<ActionResult<Device>> PostDeviceAsync(Device device)
+    public async Task<ActionResult<Device>> PostDevice(Device device)
     {
         var response = await _deviceService.CreateDeviceAsync(device);
         if (!response.Successfull)
@@ -53,7 +53,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteDeviceAsync(int id)
+    public async Task<IActionResult> DeleteDevice(int id)
     {
         await _deviceService.DeleteDeviceAsync(id);
         return Ok();
