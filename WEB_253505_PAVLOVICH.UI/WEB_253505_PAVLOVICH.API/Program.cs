@@ -14,10 +14,9 @@ builder.Services.AddSwaggerGen();
 
 // Database
 var connStr = builder.Configuration.GetConnectionString("MySQLConnection");
-ServerVersion vesrion = ServerVersion.AutoDetect(connStr);
+//ServerVersion vesrion = ServerVersion.AutoDetect(connStr);
 builder.Services.AddDbContext<AppDbContext>(opt =>
-                    opt.UseMySql(connStr, new MySqlServerVersion(new Version(8, 0, 36))),
-                    ServiceLifetime.Scoped);
+                    opt.UseMySql(connStr, new MySqlServerVersion(new Version(8, 0, 36))));
 
 // DI
 builder.Services.AddScoped<ICategoryService, CategoryService>()

@@ -1,12 +1,11 @@
-﻿using System.Net.Http;
-using System.Text;
+﻿using System.Text;
 using System.Text.Json;
 using WEB_253505_PAVLOVICH.Domain.Entities;
 using WEB_253505_PAVLOVICH.Domain.Models;
-using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 
 namespace WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
+//Add list all async method
 public class ApiDeviceService : IDeviceService
 {
     private readonly HttpClient _httpClient;

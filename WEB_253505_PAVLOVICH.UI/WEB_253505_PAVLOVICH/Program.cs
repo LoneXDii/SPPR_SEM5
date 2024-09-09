@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.RegisterCustomServices();
+builder.Services.AddRazorPages();
 
 UriData.ApiUri = builder.Configuration.GetSection("UriData").GetValue<string>("ApiUri")!;
 
@@ -35,5 +36,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
