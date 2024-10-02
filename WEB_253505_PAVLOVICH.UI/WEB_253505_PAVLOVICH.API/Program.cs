@@ -24,7 +24,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt =>
                 {
 
-                    opt.MetadataAddress = $"{authServer.Host}/realms/{authServer.Realm}/.well-known / openid - configuration";
+                    opt.MetadataAddress = $"{authServer.Host}/realms/{authServer.Realm}/.well-known/openid-configuration";
                     opt.Authority = $"{authServer.Host}/realms/{authServer.Realm}";
                     opt.Audience = "account";
                     opt.RequireHttpsMetadata = false;
