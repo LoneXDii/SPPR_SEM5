@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WEB_253505_PAVLOVICH.API.Controllers;
 
@@ -14,6 +15,7 @@ public class FilesController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Policy = "admin")]
     public async Task<IActionResult> SaveFile(IFormFile file)
     {
         if (file is null) 
@@ -38,6 +40,7 @@ public class FilesController : ControllerBase
     }
 
     [HttpDelete("{fileName}")]
+    [Authorize(Policy = "admin")]
     public IActionResult DeleteFile(string fileName) 
     {
         var filePath = Path.Combine(_imagePath, fileName);

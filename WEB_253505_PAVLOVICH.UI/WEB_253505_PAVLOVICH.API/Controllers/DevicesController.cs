@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WEB_253505_PAVLOVICH.API.Services.DeviceService;
 using WEB_253505_PAVLOVICH.Domain.Entities;
 
@@ -35,6 +36,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpPut("{id}")]
+    [Authorize(Policy = "admin")]
     public async Task<IActionResult> PutDevice(int id, Device device)
     {
         await _deviceService.UpdateDeviceAsync(id, device);
@@ -42,6 +44,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Policy = "admin")]
     public async Task<ActionResult<Device>> PostDevice(Device device)
     {
         var response = await _deviceService.CreateDeviceAsync(device);
@@ -53,6 +56,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpDelete("{id}")]
+    [Authorize(Policy = "admin")]
     public async Task<IActionResult> DeleteDevice(int id)
     {
         await _deviceService.DeleteDeviceAsync(id);
