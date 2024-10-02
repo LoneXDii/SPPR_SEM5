@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using WEB_253505_PAVLOVICH.UI.Models;
 using WEB_253505_PAVLOVICH.UI.Services.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace WEB_253505_PAVLOVICH.UI.Controllers;
 
@@ -36,5 +39,25 @@ public class AccountController : Controller
             else return BadRequest(result.ErrorMessage);
         }
         return View(user);
+    }
+
+    public async Task Login()
+    {
+        await HttpContext.ChallengeAsync(OpenIdConnectDefaults.AuthenticationScheme,
+                                         new AuthenticationProperties
+                                         {
+                                             RedirectUri = Url.Action("Index", "Home")
+                                         });
+    }
+
+    [HttpPost]
+    public async Task Logout()
+    {
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        await HttpContext.SignOutAsync(OpenIdConnectDefaults.AuthenticationScheme, 
+                                       new AuthenticationProperties
+                                       {
+                                           RedirectUri = Url.Action("Index", "Home")
+                                       });
     }
 }
