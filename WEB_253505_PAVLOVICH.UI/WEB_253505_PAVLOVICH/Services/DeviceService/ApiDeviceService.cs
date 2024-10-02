@@ -2,6 +2,7 @@
 using System.Text.Json;
 using WEB_253505_PAVLOVICH.Domain.Entities;
 using WEB_253505_PAVLOVICH.Domain.Models;
+using WEB_253505_PAVLOVICH.UI.Services.Authentication;
 using WEB_253505_PAVLOVICH.UI.Services.FileService;
 
 namespace WEB_253505_PAVLOVICH.UI.Services.DeviceService;
@@ -13,10 +14,12 @@ public class ApiDeviceService : IDeviceService
     private readonly ILogger<ApiDeviceService> _logger;
     private readonly JsonSerializerOptions _serializerOptions;
     private readonly IFileService _fileService;
+    private readonly ITokenAccessor _tokenAccessor;
     private readonly string _pageSize;
 
     public ApiDeviceService(HttpClient httpClient, IConfiguration configuration,
-                            ILogger<ApiDeviceService> logger, IFileService fileService)
+                            ILogger<ApiDeviceService> logger, IFileService fileService,
+                            ITokenAccessor tokenAccessor)
     {
         _httpClient = httpClient;
         _serializerOptions = new JsonSerializerOptions()
@@ -26,6 +29,7 @@ public class ApiDeviceService : IDeviceService
         _logger = logger;
         _pageSize = configuration.GetSection("ItemsPerPage").Value!;
         _fileService = fileService;
+        _tokenAccessor = tokenAccessor;
     }
 
     public async Task<ResponseData<ProductListModel<Device>>> GetDeviceListAsync(string? categoryNormalizedName, int pageNo = 1)
@@ -44,6 +48,7 @@ public class ApiDeviceService : IDeviceService
             urlString.Append(QueryString.Create("pageSize", _pageSize));
         }
 
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
         if (response.IsSuccessStatusCode)
         {
@@ -77,6 +82,7 @@ public class ApiDeviceService : IDeviceService
         }
 
         var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + "Devices");
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.PostAsJsonAsync(uri, device, _serializerOptions);
         if (response.IsSuccessStatusCode)
         {
@@ -91,6 +97,7 @@ public class ApiDeviceService : IDeviceService
     public async Task DeleteDeviceAsync(int id)
     {
         var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"Devices/{id}");
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.DeleteAsync(uri);
         if (!response.IsSuccessStatusCode)
         {
@@ -101,6 +108,7 @@ public class ApiDeviceService : IDeviceService
     public async Task<ResponseData<Device>> GetDeviceByIdAsync(int id)
     {
         var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"Devices/{id}");
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.GetAsync(uri);
         if (response.IsSuccessStatusCode)
         {
@@ -132,6 +140,7 @@ public class ApiDeviceService : IDeviceService
             }
         }
         var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"Devices/{id}");
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.PutAsJsonAsync(uri, device);
         if (!response.IsSuccessStatusCode)
         {

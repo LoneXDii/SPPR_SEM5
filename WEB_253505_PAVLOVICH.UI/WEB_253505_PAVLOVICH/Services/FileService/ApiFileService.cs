@@ -1,4 +1,5 @@
 ﻿
+using WEB_253505_PAVLOVICH.UI.Services.Authentication;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
 namespace WEB_253505_PAVLOVICH.UI.Services.FileService;
@@ -7,11 +8,14 @@ public class ApiFileService : IFileService
 {
     private readonly HttpClient _httpClient;
     private readonly ILogger<ApiFileService> _logger;
+    private readonly ITokenAccessor _tokenAccessor;
 
-    public ApiFileService(HttpClient httpClient, ILogger<ApiFileService> logger)
+    public ApiFileService(HttpClient httpClient, ILogger<ApiFileService> logger,
+                          ITokenAccessor tokenAccessor)
     {
         _httpClient = httpClient;
         _logger = logger;
+        _tokenAccessor = tokenAccessor;
     }
 
     public async Task<string> SaveFileAsync(IFormFile formFile)
@@ -30,6 +34,7 @@ public class ApiFileService : IFileService
 
         request.Content = content;
 
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.SendAsync(request);
         if (response.IsSuccessStatusCode)
         {
@@ -42,6 +47,8 @@ public class ApiFileService : IFileService
     public async Task DeleteFileAsync(string fileName)
     {
         var uri = new Uri(_httpClient.BaseAddress?.AbsoluteUri + $"/{fileName.Split('/').Last()}");
+
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.DeleteAsync(uri);
         if (!response.IsSuccessStatusCode)
         {
