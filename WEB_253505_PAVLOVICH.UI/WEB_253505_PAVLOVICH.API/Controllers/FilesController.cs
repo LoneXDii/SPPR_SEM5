@@ -15,7 +15,7 @@ public class FilesController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Policy = "admin")]
+    [Authorize]
     public async Task<IActionResult> SaveFile(IFormFile file)
     {
         if (file is null) 

@@ -1,4 +1,5 @@
 ﻿using WEB_253505_PAVLOVICH.UI.HelpClasses;
+using WEB_253505_PAVLOVICH.UI.Services.Authentication;
 using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 using WEB_253505_PAVLOVICH.UI.Services.FileService;
@@ -13,6 +14,7 @@ public static class HostingExtensions
 
         builder.Services.AddScoped<ICategoryService, ApiCategoryService>()
                         .AddScoped<IDeviceService, ApiDeviceService>()
-                        .AddScoped<IFileService, ApiFileService>();
+                        .AddScoped<IFileService, ApiFileService>()
+                        .AddScoped<IAuthService, KeycloakAuthService>();
     }
 }
