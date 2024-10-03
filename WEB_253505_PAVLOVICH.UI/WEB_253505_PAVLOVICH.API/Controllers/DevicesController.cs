@@ -17,6 +17,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     [Route("{category?}")]
     public async Task<ActionResult<IEnumerable<Device>>> GetDevices(string? category, int pageNo = 1, 
                                                                     int pageSize = 3)
@@ -25,6 +26,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpGet("{id:int}")]
+    [Authorize]
     public async Task<ActionResult<Device>> GetDevice(int id)
     {
         var response = await _deviceService.GetDeviceByIdAsync(id);
