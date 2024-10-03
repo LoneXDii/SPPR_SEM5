@@ -34,39 +34,49 @@
     <tbody>
         @foreach (var item in Model.Devices)
         {
-        <tr>
-            <td>
-                @item.Name
-            </td>
-            <td>
-                @item.Description
-            </td>
-            <td>
-                @item.Price
-            </td>
-            <td>
-                <img src="@item.Image" style="max-width:150px;">
-            </td>
-            <td>
-                <a class="btn btn-success"
-                   asp-page="./Edit" 
-                   asp-route-id="@item.Id">
-                    <i class="fas fa-edit"></i> Изменить
-                </a>
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Description
+                </td>
+                <td>
+                    @item.Price
+                </td>
+                <td>
+                    <img src="@item.Image" style="max-width:150px;">
+                </td>
+                <td>
+                    <a class="btn btn-success"
+                       asp-page="./Edit" 
+                       asp-route-id="@item.Id">
+                        <i class="fas fa-edit"></i> Изменить
+                    </a>
 
-                <a class="btn btn-info" 
-                   asp-page="./Details" 
-                   asp-route-id="@item.Id">
-                    <i class="fa-solid fa-info"></i> Подробнее
-                </a>
+                    <a class="btn btn-info" 
+                       asp-page="./Details" 
+                       asp-route-id="@item.Id">
+                        <i class="fa-solid fa-info"></i> Подробнее
+                    </a>
 
-                <a class="btn btn-danger" 
-                   asp-page="./Delete" 
-                   asp-route-id="@item.Id">
-                    <i class="fa-regular fa-trash-can"></i> Удалить
-                </a>
-            </td>
-        </tr>
-}
+                    <a class="btn btn-danger" 
+                       asp-page="./Delete" 
+                       asp-route-id="@item.Id">
+                        <i class="fa-regular fa-trash-can"></i> Удалить
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@{
+    await Html.RenderPartialAsync("_PaginationPartial", new
+    {
+        CurrentPage = Model.CurrentPage,
+        TotalPages = Model.TotalPages,
+        Devices = Model.Devices,
+        Admin = true,
+    });
+}
