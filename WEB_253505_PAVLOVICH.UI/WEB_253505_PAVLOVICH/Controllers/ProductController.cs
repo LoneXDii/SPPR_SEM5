@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WEB_253505_PAVLOVICH.UI.Extensions;
 using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 
@@ -20,11 +21,15 @@ public class ProductController : Controller
     {
         var deviceResponce = await _deviceService.GetDeviceListAsync(category, PageNo);
         if (!deviceResponce.Successfull)
+        {
             return NotFound(deviceResponce.ErrorMessage);
+        }
 
         var categoriesList = await _categoryService.GetCategoryListAsync();
         if (!categoriesList.Successfull)
+        {
             return NotFound(categoriesList.ErrorMessage);
+        }
 
         var categoryName = category is null 
             ? "Все" 
@@ -32,6 +37,20 @@ public class ProductController : Controller
 
         ViewData["CurrentCategory"] = categoryName;
         ViewData["Categories"] = categoriesList.Data;
+
+        if (Request.IsAjaxRequest())
+        {
+            return PartialView("_PaginationPartial", new
+            {
+                CurrentCategory = category,
+                Categories = categoriesList.Data,
+                Devices = deviceResponce.Data!.Items,
+                ReturnUrl = Request.Path + Request.QueryString.ToUriComponent(),
+                CurrentPage = deviceResponce.Data.CurrentPage,
+                TotalPages = deviceResponce.Data.TotalPages,
+                Admin = false
+            });
+        }
 
         return View(deviceResponce.Data);
     }
