@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using System.Configuration;
+using WEB_253505_PAVLOVICH.Domain.Cart;
 using WEB_253505_PAVLOVICH.UI.Extensions;
 using WEB_253505_PAVLOVICH.UI.HelpClasses;
 using WEB_253505_PAVLOVICH.UI.Services.Authentication;
+using WEB_253505_PAVLOVICH.UI.Services.CartService;
 using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
 using WEB_253505_PAVLOVICH.UI.Services.FileService;
@@ -51,6 +53,7 @@ builder.Services.AddHttpClient<ITokenAccessor, KeycloakTokenAccessor>();
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
+builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 
 var app = builder.Build();
 

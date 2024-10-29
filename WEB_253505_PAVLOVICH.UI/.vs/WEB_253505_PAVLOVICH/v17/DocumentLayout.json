@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\cartservice\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\cartservice\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\extensions\\sessionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\extensions\\sessionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\views\\shared\\_paginationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\views\\shared\\_paginationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,50 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Cart\\Cart.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Cart\\Cart.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Cart\\Cart.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Cart\\Cart.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Title": "SessionExtension.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Extensions\\SessionExtension.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Extensions\\SessionExtension.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Extensions\\SessionExtension.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Extensions\\SessionExtension.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:04:28.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T15:01:17.5Z"
+              "WhenOpened": "2024-10-29T19:54:52.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_PaginationPartial.cshtml",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Shared\\_PaginationPartial.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Views\\Shared\\_PaginationPartial.cshtml",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Shared\\_PaginationPartial.cshtml",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\Shared\\_PaginationPartial.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T14:57:48.917Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Program.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Program.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Program.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:48:28.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
               "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
               "RelativeToolTip": "WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T13:34:43.44Z",
+              "WhenOpened": "2024-10-29T19:47:41.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionCart.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\CartService\\SessionCart.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\CartService\\SessionCart.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\CartService\\SessionCart.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\CartService\\SessionCart.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:45:38.02Z",
               "EditorCaption": ""
             }
           ]
