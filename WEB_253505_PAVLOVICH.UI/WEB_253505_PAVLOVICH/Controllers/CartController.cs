@@ -16,6 +16,13 @@ public class CartController : Controller
     }
 
     [Authorize]
+    public ActionResult Index()
+    {
+        Cart cart = HttpContext.Session.Get<Cart>("cart") ?? new();
+        return View(cart);
+    }
+
+    [Authorize]
     [Route("[controller]/add/{id:int}")]
     public async Task<ActionResult> Add(int id, string returnUrl)
     {
@@ -27,5 +34,15 @@ public class CartController : Controller
             HttpContext.Session.Set<Cart>("cart", cart);
         }
         return Redirect(returnUrl);
+    }
+
+    [Authorize]
+    [Route("[controller]/delete/{id:int}")]
+    public ActionResult Delete(int id)
+    {
+        Cart cart = HttpContext.Session.Get<Cart>("cart") ?? new();
+        cart.RemoveItems(id);
+        HttpContext.Session.Set<Cart>("cart", cart);
+        return RedirectToAction("Index", "Cart");
     }
 }
