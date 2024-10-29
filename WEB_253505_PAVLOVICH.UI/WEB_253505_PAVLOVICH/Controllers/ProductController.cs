@@ -17,6 +17,7 @@ public class ProductController : Controller
         _deviceService = deviceService;
     }
 
+    [Route("devices/{category?}")]
     public async Task<IActionResult> Index(string? category, int PageNo = 1)
     {
         var deviceResponce = await _deviceService.GetDeviceListAsync(category, PageNo);
