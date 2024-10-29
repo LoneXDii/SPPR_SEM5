@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using WEB_253505_PAVLOVICH.Domain.Cart;
 using WEB_253505_PAVLOVICH.UI.Extensions;
 using WEB_253505_PAVLOVICH.UI.Services.DeviceService;
-
+//IMPLEMENT DI!!!!!
 namespace WEB_253505_PAVLOVICH.UI.Controllers;
 
 public class CartController : Controller
@@ -46,3 +46,5 @@ public class CartController : Controller
         return RedirectToAction("Index", "Cart");
     }
 }
+
+//IMPLEMENT DI!!!!!

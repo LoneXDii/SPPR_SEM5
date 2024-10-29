@@ -38,8 +38,7 @@
               "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Cart\\Cart.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:04:28.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T15:04:28.619Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\Cart\\Index.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T15:01:17.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T15:01:17.5Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\Shared\\_PaginationPartial.cshtml",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAFYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T14:57:48.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T14:57:48.917Z"
             },
             {
               "$type": "Document",
@@ -73,9 +70,9 @@
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\CartController.cs*",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Controllers\\CartController.cs*",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCwAAAA0AAAA",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T13:34:43.44Z",
               "EditorCaption": ""
