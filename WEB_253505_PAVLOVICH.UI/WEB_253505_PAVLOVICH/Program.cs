@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
-using System.Configuration;
+using Serilog;
 using WEB_253505_PAVLOVICH.Domain.Cart;
 using WEB_253505_PAVLOVICH.UI.Extensions;
 using WEB_253505_PAVLOVICH.UI.HelpClasses;
+using WEB_253505_PAVLOVICH.UI.Middleware;
 using WEB_253505_PAVLOVICH.UI.Services.Authentication;
 using WEB_253505_PAVLOVICH.UI.Services.CartService;
 using WEB_253505_PAVLOVICH.UI.Services.CategoryService;
@@ -55,6 +55,11 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.ReadFrom.Configuration(context.Configuration);
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -71,7 +76,10 @@ app.UseSession();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseMiddleware<LoggingMiddleware>();
 
 app.MapControllerRoute(
     name: "default",
