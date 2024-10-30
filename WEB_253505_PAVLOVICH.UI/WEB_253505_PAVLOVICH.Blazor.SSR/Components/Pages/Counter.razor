@@ -7,14 +7,13 @@
 
 <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
 <div class="container">
+    <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
     <EditForm OnValidSubmit="HandleValidSubmit" Model="@counter">
         <DataAnnotationsValidator />
         <ValidationSummary />
-        <InputNumber class="form-control" @bind-Value="counter.Value" />
-        <button class="btn btn-secondary" type="submit">Set value</button>
+        <InputNumber class="form-control mt-2" @bind-Value="counter.Value" />
+        <button class="btn btn-secondary mt-2" type="submit">Set value</button>
     </EditForm>
 </div>
 

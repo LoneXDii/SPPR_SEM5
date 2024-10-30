@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EBAC7CF-1C6F-4784-959F-3095A09C1A60}|WEB_253505_PAVLOVICH.Blazor.SSR\\WEB_253505_PAVLOVICH.Blazor.SSR.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazor.ssr\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9EBAC7CF-1C6F-4784-959F-3095A09C1A60}|WEB_253505_PAVLOVICH.Blazor.SSR\\WEB_253505_PAVLOVICH.Blazor.SSR.csproj|solutionrelative:web_253505_pavlovich.blazor.ssr\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBAC7CF-1C6F-4784-959F-3095A09C1A60}|WEB_253505_PAVLOVICH.Blazor.SSR\\WEB_253505_PAVLOVICH.Blazor.SSR.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazor.ssr\\models\\countermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBAC7CF-1C6F-4784-959F-3095A09C1A60}|WEB_253505_PAVLOVICH.Blazor.SSR\\WEB_253505_PAVLOVICH.Blazor.SSR.csproj|solutionrelative:web_253505_pavlovich.blazor.ssr\\models\\countermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CounterModel.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Blazor.SSR\\Models\\CounterModel.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Blazor.SSR\\Models\\CounterModel.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Blazor.SSR\\Models\\CounterModel.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Blazor.SSR\\Models\\CounterModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:02:01.596Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Counter.razor",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Blazor.SSR\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Blazor.SSR\\Components\\Pages\\Counter.razor",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Blazor.SSR\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.Blazor.SSR\\Components\\Pages\\Counter.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Blazor.SSR\\Components\\Pages\\Counter.razor*",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Blazor.SSR\\Components\\Pages\\Counter.razor*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T09:00:46.436Z",
+              "WhenOpened": "2024-10-30T19:32:17.641Z",
               "EditorCaption": ""
             }
           ]
