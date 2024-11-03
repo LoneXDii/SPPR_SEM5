@@ -5,7 +5,7 @@
 	﻿<nav aria-label="navigation px-2" style="max-width">
 		<ul class="pagination">
 			<li class="page-item">
-				<button class="btn btn-secondary page-link"
+				<button class="btn btn-outline-primary page-link"
 						disabled="@IsFirstPage" 
 						@onclick="async () => await GoToPageAsync(CurrentPage - 1)">
 					&laquo;
@@ -14,14 +14,14 @@
 			@foreach (var pageN in Enumerable.Range(1, TotalPages))
 			{
 				<li class="page-item">
-					<button class="btn btn-secondary page-link @(pageN == CurrentPage ? "active" : "")"
+					<button class="btn btn-outline-primary page-link @(pageN == CurrentPage ? "active" : "")"
 							@onclick="async () => await GoToPageAsync(pageN)">
 						@pageN
 					</button>
 				</li>
 			}
 			<li class="page-item">
-				<button class="btn btn-secondary page-link"
+				<button class="btn btn-outline-primary page-link"
 						disabled="@IsLastPage" 
 						@onclick=" async () => await GoToPageAsync(CurrentPage + 1)">
 					&raquo;

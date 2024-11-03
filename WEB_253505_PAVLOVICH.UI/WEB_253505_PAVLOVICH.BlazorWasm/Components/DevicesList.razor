@@ -11,7 +11,8 @@ else
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Description</th>
+                <th>Price</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -19,7 +20,8 @@ else
             {
                 <tr>
                     <td>@device.Name</td>
-                    <td>@device.Description</td>
+                    <td>@device.Price BYN</td>
+                    <td><button class="btn btn-outline-primary" @onclick="() => OnItemSelected.Invoke(device.Id)">Details</button></td>
                 </tr>
             }
         </tbody>
@@ -27,6 +29,9 @@ else
 }
 
 @code {
+    [Parameter]
+    public Action<int> OnItemSelected { get; set; }
+
     protected override void OnInitialized()
     {
         DataService.DataLoaded += StateHasChanged;
