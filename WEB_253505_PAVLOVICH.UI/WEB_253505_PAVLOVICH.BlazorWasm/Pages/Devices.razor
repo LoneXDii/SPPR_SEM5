@@ -1,45 +1,16 @@
 ﻿@page "/devices"
 @attribute [Authorize]
-
 @using Microsoft.AspNetCore.Authorization;
 
 <PageTitle>Devices</PageTitle>
-
-<h1>Devices</h1>
-
-<p>This component demonstrates fetching data from the server.</p>
-
-@if (Data.Devices == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Descr</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var device in Data.Devices)
-            {
-                <tr>
-                    <td>@device.Name</td>
-                    <td>@device.Description</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+<DevicesList/>
 
 @code {
     [Inject]
-    public IDataService Data{ get; set; }
+    public IDataService DataService{ get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        await Data.GetProductListAsync();
+        await DataService.GetProductListAsync();
     }
 }

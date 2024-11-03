@@ -1,0 +1,38 @@
+﻿@inject IDataService DataService
+@implements IDisposable
+
+@if (DataService.Devices == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Descr</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var device in DataService.Devices)
+            {
+                <tr>
+                    <td>@device.Name</td>
+                    <td>@device.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        DataService.DataLoaded += StateHasChanged;
+    }
+    public void Dispose()
+    {
+        DataService.DataLoaded -= StateHasChanged;
+    }
+}
