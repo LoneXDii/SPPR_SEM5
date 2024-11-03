@@ -3,6 +3,7 @@
 @using Microsoft.AspNetCore.Authorization;
 
 <PageTitle>Devices</PageTitle>
+<CategorySelector OnCategoryChanged="CategoryChanged" />
 <DevicesList/>
 
 @code {
@@ -12,5 +13,12 @@
     protected override async Task OnInitializedAsync()
     {
         await DataService.GetProductListAsync();
+    }
+
+    async void CategoryChanged()
+    {
+        await DataService.GetProductListAsync();
+        DataService.CurrentPage = 1;
+        StateHasChanged();
     }
 }

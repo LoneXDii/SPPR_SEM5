@@ -11,7 +11,7 @@ public interface IDataService
     string ErrorMessage { get; set; }
     int TotalPages { get; set; }
     int CurrentPage { get; set; }
-    Category SelectedCategory { get; set; }
+    Category? SelectedCategory { get; set; }
 
     public Task GetProductListAsync(int pageNo = 1);
 

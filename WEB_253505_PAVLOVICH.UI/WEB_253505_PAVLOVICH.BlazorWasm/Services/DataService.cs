@@ -32,7 +32,7 @@ internal class DataService : IDataService
     public string ErrorMessage { get; set; }
     public int TotalPages { get; set; }
     public int CurrentPage { get; set; }
-    public Category SelectedCategory { get; set; } = null;
+    public Category? SelectedCategory { get; set; } = null;
 
     public event Action DataLoaded;
 
@@ -82,7 +82,7 @@ internal class DataService : IDataService
 
             if (SelectedCategory is not null)
             {
-                route.Append($"{SelectedCategory}/");
+                route.Append($"{SelectedCategory.NormalizedName}/");
             }
 
             List<KeyValuePair<string, string>> queryData = new();
