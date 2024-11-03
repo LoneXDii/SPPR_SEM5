@@ -17,7 +17,7 @@ public class DevicesController : ControllerBase
     }
 
     [HttpGet]
-    [Authorize]
+    //[Authorize]
     [Route("{category?}")]
     public async Task<ActionResult<IEnumerable<Device>>> GetDevices(string? category, int pageNo = 1, 
                                                                     int pageSize = 3)
