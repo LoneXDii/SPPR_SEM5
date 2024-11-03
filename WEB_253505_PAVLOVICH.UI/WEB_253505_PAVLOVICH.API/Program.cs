@@ -46,6 +46,11 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 builder.Services.AddScoped<ICategoryService, CategoryService>()
                 .AddScoped<IDeviceService, DeviceService>();
 
+builder.Services.AddCors(opt => opt.AddPolicy("WasmClient",
+    builder => builder.WithOrigins("https://localhost:7005")
+                      .AllowAnyMethod()
+                      .AllowAnyHeader()));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -59,6 +64,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors("WasmClient");
 
 app.MapControllers();
 

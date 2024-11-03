@@ -1,1 +1,258 @@
 2024-10-30 11:49:54.524 +03:00 [INF] ---> request https://localhost:7001/dasdaas returns 404
+2024-10-31 00:23:24.465 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 00:23:37.143 +03:00 [INF] ---> request https://localhost:7001/Account/Logout returns 302
+2024-10-31 00:23:38.095 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 14:01:53.679 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 14:02:05.170 +03:00 [INF] ---> request https://localhost:7001/Account/Logout returns 302
+2024-10-31 14:02:24.485 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 14:02:24.490 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 14:02:24.524 +03:00 [INF] Received HTTP response headers after 29.4841ms - 200
+2024-10-31 14:02:24.527 +03:00 [INF] End processing HTTP request after 47.2642ms - 200
+2024-10-31 14:02:24.533 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 14:02:24.534 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 14:02:24.542 +03:00 [INF] Received HTTP response headers after 7.8953ms - 200
+2024-10-31 14:02:24.543 +03:00 [INF] End processing HTTP request after 10.2223ms - 200
+2024-10-31 14:02:24.544 +03:00 [INF] Start processing HTTP request POST https://localhost:7002/api/Files
+2024-10-31 14:02:24.545 +03:00 [INF] Sending HTTP request POST https://localhost:7002/api/Files
+2024-10-31 14:02:25.863 +03:00 [INF] Received HTTP response headers after 1316.3277ms - 200
+2024-10-31 14:02:25.865 +03:00 [INF] End processing HTTP request after 1320.5044ms - 200
+2024-10-31 14:02:25.879 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/admin/realms/master/users
+2024-10-31 14:02:25.881 +03:00 [INF] Sending HTTP request POST http://localhost:8080/admin/realms/master/users
+2024-10-31 14:02:26.102 +03:00 [INF] Received HTTP response headers after 219.1648ms - 201
+2024-10-31 14:02:26.105 +03:00 [INF] End processing HTTP request after 225.6415ms - 201
+2024-10-31 14:02:26.107 +03:00 [INF] ---> request https://localhost:7001/Account/Register returns 302
+2024-10-31 14:02:28.205 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 14:02:38.024 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:38.025 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:39.715 +03:00 [INF] Received HTTP response headers after 1689.4355ms - 200
+2024-10-31 14:02:39.717 +03:00 [INF] End processing HTTP request after 1693.4947ms - 200
+2024-10-31 14:02:39.730 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:39.732 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:39.788 +03:00 [INF] Received HTTP response headers after 55.5476ms - 200
+2024-10-31 14:02:39.790 +03:00 [INF] End processing HTTP request after 60.3625ms - 200
+2024-10-31 14:02:41.441 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:02:41.443 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:02:41.533 +03:00 [INF] Received HTTP response headers after 88.1015ms - 200
+2024-10-31 14:02:41.534 +03:00 [INF] End processing HTTP request after 92.3196ms - 200
+2024-10-31 14:02:41.545 +03:00 [INF] ---> request https://localhost:7001/Cart/add/1?returnurl=%2Fdevices returns 302
+2024-10-31 14:02:41.553 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:41.554 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:41.583 +03:00 [INF] Received HTTP response headers after 28.3945ms - 200
+2024-10-31 14:02:41.584 +03:00 [INF] End processing HTTP request after 30.6625ms - 200
+2024-10-31 14:02:41.585 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:41.586 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:41.607 +03:00 [INF] Received HTTP response headers after 19.9047ms - 200
+2024-10-31 14:02:41.608 +03:00 [INF] End processing HTTP request after 22.8079ms - 200
+2024-10-31 14:02:42.167 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:02:42.169 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:02:42.192 +03:00 [INF] Received HTTP response headers after 22.0147ms - 200
+2024-10-31 14:02:42.193 +03:00 [INF] End processing HTTP request after 25.4826ms - 200
+2024-10-31 14:02:42.194 +03:00 [INF] ---> request https://localhost:7001/Cart/add/1?returnurl=%2Fdevices returns 302
+2024-10-31 14:02:42.202 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:42.202 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:42.229 +03:00 [INF] Received HTTP response headers after 25.367ms - 200
+2024-10-31 14:02:42.230 +03:00 [INF] End processing HTTP request after 27.934ms - 200
+2024-10-31 14:02:42.230 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:42.231 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:42.250 +03:00 [INF] Received HTTP response headers after 18.7323ms - 200
+2024-10-31 14:02:42.251 +03:00 [INF] End processing HTTP request after 20.7096ms - 200
+2024-10-31 14:02:43.017 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/2
+2024-10-31 14:02:43.019 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/2
+2024-10-31 14:02:43.044 +03:00 [INF] Received HTTP response headers after 24.6148ms - 200
+2024-10-31 14:02:43.045 +03:00 [INF] End processing HTTP request after 27.8698ms - 200
+2024-10-31 14:02:43.047 +03:00 [INF] ---> request https://localhost:7001/Cart/add/2?returnurl=%2Fdevices returns 302
+2024-10-31 14:02:43.052 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:43.053 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:02:43.077 +03:00 [INF] Received HTTP response headers after 22.2468ms - 200
+2024-10-31 14:02:43.077 +03:00 [INF] End processing HTTP request after 25.1065ms - 200
+2024-10-31 14:02:43.078 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:43.079 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:02:43.097 +03:00 [INF] Received HTTP response headers after 17.6347ms - 200
+2024-10-31 14:02:43.098 +03:00 [INF] End processing HTTP request after 19.8181ms - 200
+2024-10-31 14:02:51.370 +03:00 [INF] ---> request https://localhost:7001/Cart/delete/1 returns 302
+2024-10-31 14:02:52.012 +03:00 [INF] ---> request https://localhost:7001/Cart/delete/2 returns 302
+2024-10-31 14:03:53.433 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 14:04:59.160 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:04:59.168 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:01.267 +03:00 [INF] Received HTTP response headers after 2093.1194ms - 200
+2024-10-31 14:05:01.273 +03:00 [INF] End processing HTTP request after 2121.768ms - 200
+2024-10-31 14:05:01.311 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:01.314 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:01.399 +03:00 [INF] Received HTTP response headers after 84.2528ms - 200
+2024-10-31 14:05:01.401 +03:00 [INF] End processing HTTP request after 89.8386ms - 200
+2024-10-31 14:05:05.233 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:05:05.235 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:05:05.398 +03:00 [INF] Received HTTP response headers after 161.4182ms - 200
+2024-10-31 14:05:05.401 +03:00 [INF] End processing HTTP request after 167.9004ms - 200
+2024-10-31 14:05:05.426 +03:00 [INF] ---> request https://localhost:7001/Cart/add/1?returnurl=%2Fdevices returns 302
+2024-10-31 14:05:05.442 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:05.444 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:05.503 +03:00 [INF] Received HTTP response headers after 58.2741ms - 200
+2024-10-31 14:05:05.505 +03:00 [INF] End processing HTTP request after 62.9673ms - 200
+2024-10-31 14:05:05.507 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:05.508 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:05.544 +03:00 [INF] Received HTTP response headers after 34.8771ms - 200
+2024-10-31 14:05:05.546 +03:00 [INF] End processing HTTP request after 38.7525ms - 200
+2024-10-31 14:05:06.239 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:05:06.242 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 14:05:06.293 +03:00 [INF] Received HTTP response headers after 48.1088ms - 200
+2024-10-31 14:05:06.295 +03:00 [INF] End processing HTTP request after 55.9469ms - 200
+2024-10-31 14:05:06.298 +03:00 [INF] ---> request https://localhost:7001/Cart/add/1?returnurl=%2Fdevices returns 302
+2024-10-31 14:05:06.312 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:06.313 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:06.361 +03:00 [INF] Received HTTP response headers after 46.9748ms - 200
+2024-10-31 14:05:06.363 +03:00 [INF] End processing HTTP request after 51.4313ms - 200
+2024-10-31 14:05:06.364 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:06.365 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:06.406 +03:00 [INF] Received HTTP response headers after 39.3108ms - 200
+2024-10-31 14:05:06.407 +03:00 [INF] End processing HTTP request after 43.0889ms - 200
+2024-10-31 14:05:07.284 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/2
+2024-10-31 14:05:07.287 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/2
+2024-10-31 14:05:07.328 +03:00 [INF] Received HTTP response headers after 38.8718ms - 200
+2024-10-31 14:05:07.331 +03:00 [INF] End processing HTTP request after 46.9119ms - 200
+2024-10-31 14:05:07.334 +03:00 [INF] ---> request https://localhost:7001/Cart/add/2?returnurl=%2Fdevices returns 302
+2024-10-31 14:05:07.349 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:07.351 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:07.402 +03:00 [INF] Received HTTP response headers after 48.9298ms - 200
+2024-10-31 14:05:07.405 +03:00 [INF] End processing HTTP request after 55.836ms - 200
+2024-10-31 14:05:07.406 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:07.407 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:07.442 +03:00 [INF] Received HTTP response headers after 33.9646ms - 200
+2024-10-31 14:05:07.444 +03:00 [INF] End processing HTTP request after 37.9803ms - 200
+2024-10-31 14:05:08.291 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/3
+2024-10-31 14:05:08.294 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/3
+2024-10-31 14:05:08.342 +03:00 [INF] Received HTTP response headers after 46.3836ms - 200
+2024-10-31 14:05:08.345 +03:00 [INF] End processing HTTP request after 53.9606ms - 200
+2024-10-31 14:05:08.347 +03:00 [INF] ---> request https://localhost:7001/Cart/add/3?returnurl=%2Fdevices returns 302
+2024-10-31 14:05:08.360 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:08.361 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 14:05:08.408 +03:00 [INF] Received HTTP response headers after 45.4912ms - 200
+2024-10-31 14:05:08.410 +03:00 [INF] End processing HTTP request after 50.3552ms - 200
+2024-10-31 14:05:08.412 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:08.414 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 14:05:08.455 +03:00 [INF] Received HTTP response headers after 38.8281ms - 200
+2024-10-31 14:05:08.457 +03:00 [INF] End processing HTTP request after 44.3882ms - 200
+2024-10-31 15:05:33.498 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/realms/master/.well-known/openid-configuration'. Will retry at '31.10.2024 12:05:33 +00:00'. Exception: 'System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.SendAsyncAndRetryOnNetworkError(HttpClient httpClient, Uri uri)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.SendAsyncAndRetryOnNetworkError(HttpClient httpClient, Uri uri)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at WEB_253505_PAVLOVICH.UI.Controllers.AccountController.Login() in D:\labs\Sem 5\SPPR\WEB_253505_PAVLOVICH.UI\WEB_253505_PAVLOVICH\Controllers\AccountController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at WEB_253505_PAVLOVICH.UI.Middleware.LoggingMiddleware.Invoke(HttpContext httpContext) in D:\labs\Sem 5\SPPR\WEB_253505_PAVLOVICH.UI\WEB_253505_PAVLOVICH\Middleware\LoggingMiddleware.cs:line 17
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-31 21:41:59.646 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 21:42:16.829 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 21:42:16.834 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 21:42:18.868 +03:00 [INF] Received HTTP response headers after 2031.1446ms - 200
+2024-10-31 21:42:18.873 +03:00 [INF] End processing HTTP request after 2047.926ms - 200
+2024-10-31 21:42:18.897 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 21:42:18.898 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 21:42:18.964 +03:00 [INF] Received HTTP response headers after 64.5173ms - 200
+2024-10-31 21:42:18.966 +03:00 [INF] End processing HTTP request after 69.0016ms - 200
+2024-10-31 21:42:21.806 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 21:42:21.807 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 21:42:21.885 +03:00 [INF] Received HTTP response headers after 76.8718ms - 200
+2024-10-31 21:42:21.886 +03:00 [INF] End processing HTTP request after 80.0458ms - 200
+2024-10-31 21:42:24.148 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 21:42:24.148 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Devices/1
+2024-10-31 21:42:24.196 +03:00 [INF] Received HTTP response headers after 45.9098ms - 200
+2024-10-31 21:42:24.197 +03:00 [INF] End processing HTTP request after 49.393ms - 200
+2024-10-31 21:42:24.201 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 21:42:24.202 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 21:42:24.224 +03:00 [INF] Received HTTP response headers after 21.4069ms - 200
+2024-10-31 21:42:24.225 +03:00 [INF] End processing HTTP request after 23.8917ms - 200
+2024-10-31 21:42:25.995 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 21:42:25.997 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/devices/
+2024-10-31 21:42:26.024 +03:00 [INF] Received HTTP response headers after 25.5212ms - 200
+2024-10-31 21:42:26.025 +03:00 [INF] End processing HTTP request after 29.9316ms - 200
+2024-10-31 21:42:26.026 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 21:42:26.027 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-10-31 21:42:26.046 +03:00 [INF] Received HTTP response headers after 18.2439ms - 200
+2024-10-31 21:42:26.047 +03:00 [INF] End processing HTTP request after 20.7705ms - 200
+2024-10-31 21:42:28.429 +03:00 [INF] ---> request https://localhost:7001/Account/Logout returns 302
+2024-10-31 21:42:54.996 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 21:42:54.997 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 21:42:55.014 +03:00 [INF] Received HTTP response headers after 15.7332ms - 200
+2024-10-31 21:42:55.015 +03:00 [INF] End processing HTTP request after 19.7244ms - 200
+2024-10-31 21:42:55.023 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 21:42:55.024 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-10-31 21:42:55.031 +03:00 [INF] Received HTTP response headers after 6.5398ms - 200
+2024-10-31 21:42:55.032 +03:00 [INF] End processing HTTP request after 9.005ms - 200
+2024-10-31 21:42:55.033 +03:00 [INF] Start processing HTTP request POST https://localhost:7002/api/Files
+2024-10-31 21:42:55.035 +03:00 [INF] Sending HTTP request POST https://localhost:7002/api/Files
+2024-10-31 21:42:55.093 +03:00 [INF] Received HTTP response headers after 56.9617ms - 200
+2024-10-31 21:42:55.094 +03:00 [INF] End processing HTTP request after 60.8666ms - 200
+2024-10-31 21:42:55.100 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/admin/realms/master/users
+2024-10-31 21:42:55.101 +03:00 [INF] Sending HTTP request POST http://localhost:8080/admin/realms/master/users
+2024-10-31 21:42:55.178 +03:00 [INF] Received HTTP response headers after 76.9794ms - 201
+2024-10-31 21:42:55.180 +03:00 [INF] End processing HTTP request after 80.1512ms - 201
+2024-10-31 21:42:55.182 +03:00 [INF] ---> request https://localhost:7001/Account/Register returns 302
+2024-10-31 21:42:56.569 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302
+2024-10-31 21:45:23.998 +03:00 [INF] ---> request https://localhost:7001/Account/Logout returns 302
+2024-10-31 21:45:24.726 +03:00 [INF] ---> request https://localhost:7001/Account/Login returns 302

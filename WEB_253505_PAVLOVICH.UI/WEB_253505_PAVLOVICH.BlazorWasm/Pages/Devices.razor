@@ -1,0 +1,27 @@
+﻿@page "/devices"
+@attribute [Authorize]
+@using Microsoft.AspNetCore.Authorization;
+
+<PageTitle>Devices</PageTitle>
+<CategorySelector/>
+<DevicesList OnItemSelected="OnDeviceSelected"/>
+<Pager/>
+<DeviceInfo SelectedItem="SelectedDevice"/>
+
+@code {
+    [Inject]
+    public IDataService DataService{ get; set; }
+
+    Device SelectedDevice { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await DataService.GetProductListAsync();
+    }
+
+    void OnDeviceSelected(int id)
+    {
+        SelectedDevice = DataService.Devices.FirstOrDefault(d => d.Id == id);
+        StateHasChanged();
+    }
+}
