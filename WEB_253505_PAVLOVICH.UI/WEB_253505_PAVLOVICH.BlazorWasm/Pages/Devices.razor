@@ -7,7 +7,7 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (devices == null)
+@if (Data.Devices == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -21,7 +21,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var device in devices.Data.Items)
+            @foreach (var device in Data.Devices)
             {
                 <tr>
                     <td>@device.Name</td>
@@ -33,11 +33,11 @@ else
 }
 
 @code {
-    private ResponseData<ProductListModel<Device>>? devices;
+    [Inject]
+    public IDataService Data{ get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        devices = await Http.GetFromJsonAsync<ResponseData<ProductListModel<Device>>>("https://localhost:7002/api/devices/");
-        var a = 1;
+        await Data.GetProductListAsync();
     }
 }
