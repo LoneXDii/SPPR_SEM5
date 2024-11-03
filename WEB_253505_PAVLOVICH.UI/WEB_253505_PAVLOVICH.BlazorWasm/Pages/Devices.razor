@@ -3,8 +3,9 @@
 @using Microsoft.AspNetCore.Authorization;
 
 <PageTitle>Devices</PageTitle>
-<CategorySelector OnCategoryChanged="CategoryChanged" />
+<CategorySelector/>
 <DevicesList/>
+<Pager/>
 
 @code {
     [Inject]
@@ -13,12 +14,5 @@
     protected override async Task OnInitializedAsync()
     {
         await DataService.GetProductListAsync();
-    }
-
-    async void CategoryChanged()
-    {
-        await DataService.GetProductListAsync();
-        DataService.CurrentPage = 1;
-        StateHasChanged();
     }
 }

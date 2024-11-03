@@ -1,4 +1,4 @@
-﻿@inject IDataService dataService
+﻿@inject IDataService DataService
 
 <div class="row">
     <div class="dropdown col-md-3">
@@ -13,22 +13,19 @@
 </div>
 
 @code {
-    [Parameter]
-    public Action OnCategoryChanged { get; set; }
-
     private List<Category> CategoryList = new List<Category>();
 
     protected override async Task OnInitializedAsync()
     {
-        dataService.DataLoaded += StateHasChanged;
+        DataService.DataLoaded += StateHasChanged;
 
-        await dataService.GetCategoryListAsync();
-        CategoryList = dataService.Categories;
+        await DataService.GetCategoryListAsync();
+        CategoryList = DataService.Categories;
     }
 
     private bool IsSelectedCategory(Category category)
     {
-        return dataService.SelectedCategory?.NormalizedName == category.NormalizedName;
+        return DataService.SelectedCategory?.NormalizedName == category.NormalizedName;
     }
 
     public void OnCategoryChangedHandler(ChangeEventArgs e)
@@ -42,8 +39,8 @@
 
         var selectedCategory = CategoryList.FirstOrDefault(c => c.NormalizedName == selectedNormalizedName);
 
-        dataService.SelectedCategory = selectedCategory;
+        DataService.SelectedCategory = selectedCategory;
 
-        OnCategoryChanged.Invoke();
+        DataService.GetProductListAsync();
     }
 }
