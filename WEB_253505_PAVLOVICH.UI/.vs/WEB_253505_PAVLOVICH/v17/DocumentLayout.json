@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\layout\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\layout\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{471E9AB0-62DF-42EC-88FF-C32259EB2D2F}|WEB_253505_PAVLOVICH.API\\WEB_253505_PAVLOVICH.API.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471E9AB0-62DF-42EC-88FF-C32259EB2D2F}|WEB_253505_PAVLOVICH.API\\WEB_253505_PAVLOVICH.API.csproj|solutionrelative:web_253505_pavlovich.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\pages\\devices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\pages\\devices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{471E9AB0-62DF-42EC-88FF-C32259EB2D2F}|WEB_253505_PAVLOVICH.API\\WEB_253505_PAVLOVICH.API.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.api\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471E9AB0-62DF-42EC-88FF-C32259EB2D2F}|WEB_253505_PAVLOVICH.API\\WEB_253505_PAVLOVICH.API.csproj|solutionrelative:web_253505_pavlovich.api\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\deviceservice\\apideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\deviceservice\\apideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.domain\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BB04BD-4036-462D-85BB-0BEE73AED18F}|WEB_253505_PAVLOVICH.Domain\\WEB_253505_PAVLOVICH.Domain.csproj|solutionrelative:web_253505_pavlovich.domain\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_UserInfoPartial.cshtml",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Shared\\_UserInfoPartial.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Views\\Shared\\_UserInfoPartial.cshtml",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Views\\Shared\\_UserInfoPartial.cshtml",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Views\\Shared\\_UserInfoPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T13:08:41.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginDisplay.razor",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\LoginDisplay.razor",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\LoginDisplay.razor",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\LoginDisplay.razor",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\LoginDisplay.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T13:05:44.477Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.API\\Program.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.API\\Program.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.API\\Program.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.API\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:23:47.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Program.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.BlazorWasm\\Program.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Program.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH.BlazorWasm\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
+              "Title": "DevicesController.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.API\\Controllers\\DevicesController.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.API\\Controllers\\DevicesController.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.API\\Controllers\\DevicesController.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.API\\Controllers\\DevicesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:03:28.276Z",
+              "WhenOpened": "2024-11-03T13:21:17.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiDeviceService.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:19:34.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.Domain\\Entities\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:18:13.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.BlazorWasm\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T13:11:39.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Devices.razor",
+              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
+              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
+              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
+              "RelativeToolTip": "WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T13:11:37.7Z",
               "EditorCaption": ""
             }
           ]

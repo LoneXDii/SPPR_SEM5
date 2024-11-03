@@ -1,0 +1,51 @@
+﻿@page "/devices"
+@inject HttpClient Http
+
+<PageTitle>Devices</PageTitle>
+
+<h1>Devices</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (devices == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var device in devices)
+            {
+                <tr>
+                    <td>@device.Name</td>
+                    <td>@device.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Device[]? devices;
+
+    protected override async Task OnInitializedAsync()
+    {
+        devices = await Http.GetFromJsonAsync<Device[]>("https://localhost:7002/api/devices/");
+    }
+
+    public class Device
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+    }
+}
