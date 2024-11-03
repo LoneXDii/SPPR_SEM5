@@ -70,6 +70,12 @@ internal class DataService : IDataService
 
     public async Task GetProductListAsync(int pageNo = 1)
     {
+        var tokenRequest = await _accessTokenProvider.RequestAccessToken();
+        if (tokenRequest.TryGetToken(out var accessToken))
+        {
+            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken.Value);
+        }
+
         try
         {
             var route = new StringBuilder($"{_httpClient.BaseAddress.AbsoluteUri}api/devices/");

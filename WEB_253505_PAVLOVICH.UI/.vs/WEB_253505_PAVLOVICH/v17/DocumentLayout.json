@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\pages\\devices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\pages\\devices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\pages\\devices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\pages\\devices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich.blazorwasm\\services\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5CC4A24-F9D8-4691-BC45-C27DA067C5B2}|WEB_253505_PAVLOVICH.BlazorWasm\\WEB_253505_PAVLOVICH.BlazorWasm.csproj|solutionrelative:web_253505_pavlovich.blazorwasm\\services\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|d:\\labs\\sem 5\\sppr\\web_253505_pavlovich.ui\\web_253505_pavlovich\\services\\deviceservice\\apideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B4CC6D-E2FC-45CC-A129-70A92BA82942}|WEB_253505_PAVLOVICH\\WEB_253505_PAVLOVICH.UI.csproj|solutionrelative:web_253505_pavlovich\\services\\deviceservice\\apideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -47,26 +43,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Devices.razor",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
               "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
               "RelativeToolTip": "WEB_253505_PAVLOVICH.BlazorWasm\\Pages\\Devices.razor",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAIAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-03T13:33:56.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DataService.cs",
               "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Services\\DataService.cs",
               "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH.BlazorWasm\\Services\\DataService.cs",
               "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH.BlazorWasm\\Services\\DataService.cs",
               "RelativeToolTip": "WEB_253505_PAVLOVICH.BlazorWasm\\Services\\DataService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAgAAAAzAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T13:31:48.934Z",
               "EditorCaption": ""
@@ -82,19 +78,6 @@
               "ViewState": "AQIAAAoAAAAAAAAAAAA5wA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T13:28:32.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiDeviceService.cs",
-              "DocumentMoniker": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "RelativeDocumentMoniker": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "ToolTip": "D:\\labs\\Sem 5\\SPPR\\WEB_253505_PAVLOVICH.UI\\WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "RelativeToolTip": "WEB_253505_PAVLOVICH\\Services\\DeviceService\\ApiDeviceService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:37:41.116Z",
               "EditorCaption": ""
             }
           ]

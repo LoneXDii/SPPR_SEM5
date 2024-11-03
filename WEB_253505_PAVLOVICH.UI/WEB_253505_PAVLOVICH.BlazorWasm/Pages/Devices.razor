@@ -1,5 +1,7 @@
 ﻿@page "/devices"
-@inject HttpClient Http
+@attribute [Authorize]
+
+@using Microsoft.AspNetCore.Authorization;
 
 <PageTitle>Devices</PageTitle>
 
